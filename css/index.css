@@ -13,6 +13,7 @@ section.blocks {
 	height: 100%;
 	display: flex;
 	flex-direction: row;
+	overflow: hidden;
 }
 
 div.block-left {
@@ -100,6 +101,7 @@ img.me-png {
 div.block-right {
 	width: 50%;
 	background-color: #2B3614;
+	padding-right: 25px;
 }
 
 
