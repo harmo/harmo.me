@@ -32,7 +32,6 @@ img.me-png {
 
 
 .block-title {
-  overflow: hidden;
   line-height: 1.35;
   font-weight: 500;
 }
@@ -44,7 +43,6 @@ img.me-png {
 .block-title em {
   color: #344B00;
   font-style: normal;
-  position: relative;
   font-weight: 700;
 }
 
@@ -55,7 +53,6 @@ img.me-png {
 
 .block-contact a {
   display: inline-block;
-  position: relative;
   padding: .9375rem 1.25rem;
   font-family: "Montserrat",sans-serif;
   font-style: italic;
@@ -70,7 +67,6 @@ img.me-png {
 }
 
 .block-social-link {
-  position: relative;
   display: inline-block;
   line-height: 1;
   padding: .3125rem;
