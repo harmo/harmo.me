@@ -13,7 +13,6 @@ section.blocks {
 	height: 100%;
 	display: flex;
 	flex-direction: row;
-	overflow: hidden;
 }
 
 div.block-left {
