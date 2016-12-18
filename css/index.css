@@ -49,21 +49,6 @@ h3.block-title {
 }
 
 
-.block-contact {
-  
-}
-
-.block-contact a {
-  display: inline-block;
-  padding: .9375rem 1.25rem;
-  font-family: "Montserrat",sans-serif;
-  font-style: italic;
-  font-size: .875rem;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-
 .block-social {
   margin-top: 1.75rem
 }
@@ -74,18 +59,14 @@ h3.block-title {
   padding: .3125rem;
 }
 
-.block-social-link:hover {
-  animation: roll 2s;
-}
+.block-social-link.slack {
+  padding-left: 10px;
+} 
 
-@keyframes roll {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
+.block-social-link.mail {
+  padding-left: 20px;
+} 
+
 
 .block-social-link svg {
   width: 50px;
@@ -95,7 +76,6 @@ h3.block-title {
 
 .block-social-link.slack svg {
   width: 40px;
-  margin-left: 10px;
 }
 
 div.block-right {
