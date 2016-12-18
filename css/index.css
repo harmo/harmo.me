@@ -30,20 +30,22 @@ img.me-png {
   max-width: 250px;
 }
 
-
-.block-title {
-  line-height: 1.35;
-  font-weight: 500;
+h1.block-title {
+  margin-top: 200px;
+  font-size: 40px;
 }
 
-.block-title:nth-child(1) {
-  font-size: 1.5rem;
+h2.block-title {
+  margin-bottom: 95px;
+}
+
+h3.block-title {
+  font-size: 46px;
 }
 
 .block-title em {
-  color: #344B00;
+  color: #343330;
   font-style: normal;
-  font-weight: 700;
 }
 
 
@@ -93,17 +95,23 @@ img.me-png {
 
 
 div.block-right {
-  background-color: #2B3614;
+  background-color: #343330;
+  color: #ffa737
   padding-right: 25px;
   flex: 1 1 0;
 }
 
 
+.block-stack {
+  margin-right: 50px;
+}
+
 .block-stack .stack-item {
   list-style: none;
   position: relative;
-  width: 100px;
+  width: 115px;
   float: left;
+  font-size: 20px;
   color: #6D8732;
   margin-top: 0;
   padding-left: 25px;
@@ -113,18 +121,18 @@ div.block-right {
   background-color: #6D8732;
   position: absolute;
   content: '';
-  width: .375rem;
-  height: .375rem;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   left: 10px;
   top: 7px;
 }
 
 .block-stack p {
-  font-size: .8rem;
-  margin: 0 0 20px 125px;
+  font-size: 18px;
+  margin-left: 145px;
 }
 
 .block-stack > p:first-of-type {
-  margin-top: 130px;
+  margin-top: 90px;
 }
