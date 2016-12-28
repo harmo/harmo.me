@@ -43,7 +43,7 @@ h3.block-title {
   font-size: 46px;
 }
 
-.block-title em {
+.block-title em, .block-title q{
   color: #343330;
   font-style: normal;
 }
