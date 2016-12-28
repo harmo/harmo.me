@@ -67,6 +67,10 @@ h3.block-title {
   padding-left: 20px;
 } 
 
+.block-social-link.resume {
+  padding-left: 20px;
+}
+
 
 .block-social-link svg {
   width: 50px;
